@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collections</title>
+    <link href="style.css" rel="stylesheet">
+    <SCRIPT type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+
+</head>
+<body>
+<div class="menu">
+
+    
+    <div class="icon-close">
+        <img src="images/close-btn.png" id="icon">
+    </div>
+
+    
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+
+        <li><a href="photocolections.html">Photo Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+<div class="icon-menu">
+    <img src="images/menu-ham-icon.png">
+    Menu
+
+</div>
+<div class="main">
+    <div > <a href="#" class="btn btn-sm animated-button thar-one"  id ="butc" onmouseover="changec()" onmouseout="backc()" >#blackandwhite</a> </div>
+        <div > <a href="#" class="btn1 btn-sm animated-button thar-one" id="butb" onmouseover="changeb()" onmouseout="backb()" >#colorful</a> </div>
+    <script>
+function changec() {
+document.getElementById('butc').innerHTML = "click twice"
+
+}
+function backc(){
+    document.getElementById('butc').innerHTML = "#blackandwhite"
+}
+function changeb() {
+
+document.getElementById('butb').innerHTML = "click twice"
+}
+function backb(){
+    document.getElementById('butb').innerHTML = "#colorful"
+}
+</script>
+
+    
+    <ul id="polaroid-images">
+        <div class="flippy" >
+
+
+                    <li href="" ><img height="200" src="images/pink.jpg" alt="Cave"  class="images" id="leave"/></li>
+
+</div>
+
+
+        <div class="flippy1" >
+
+                    <li href="" >
+                        <img height="200" src="images/street.jpg" alt="Islands Forest" title="Islands Forest"  class="images"  id="coconut" />
+                    </li>
+
+        </div>
+        <div class="flippy2" >
+                    <li href="" >
+                        <img height="200" src="images/venice.jpg" alt="Decking" title="Decking"  class="images" id="sky"/>
+                    </li>
+        </div>
+
+        <div class="flippy3" >
+                    <li href="">
+                        <img height ="200" src ="images/seas.jpg"alt="Mountains"title="Mountains"  class="images " id="lem"/>
+                    </li>
+        </div>
+        <div class="flippy4" >
+            <li href="">
+                <img height ="200" src ="images/oldb.jpg"alt="Mountains"title="Mountains"  class="images " id="fruit"/>
+            </li>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="flippy5" >
+
+                    <li href="" >
+                        <img height="200" src="images/bloom.jpg"alt="Forest"title="Forest"  class="images" id="b" />
+                    </li>
+
+        </div>
+
+        <div class="flippy6" >
+
+            <li href="" >
+                <img height="200" src="images/moon.jpg"alt="Forest"title="Forest"  class="images" id="m"/>
+            </li>
+
+        </div>
+
+        <div class="flippy7" >
+
+            <li href="" >
+                <img height="200" src="images/dask.jpg"alt="Forest"title="Forest"  class="images"  id="d"/>
+            </li>
+
+        </div>
+</ul>
+
+
+</div>
+
+
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

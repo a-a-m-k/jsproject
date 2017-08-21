@@ -1,0 +1,169 @@
+body{
+    background:url(images/tw3.jpg);
+
+    font: 16px/20px 'Cutive Mono', serif;
+    background-size:100% 100%;
+
+
+
+
+}
+
+
+
+
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+#wrap {
+
+    width: 278px;
+
+    height:215px;
+
+    background-color: rgba(255,255,255,0.4);
+    text-align: left;
+    text-indent: 10px;
+    background-image:url(images/paper.jpg) ;
+    box-sizing: border-box;
+    padding: 20px;
+
+
+
+}
+#paper{
+margin-left:540px;
+    margin-top:0px;
+
+}
+
+
+.test {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#main{
+    margin: 0 auto ;
+    height:500px;
+    width:600px;
+    border: 5px solid black;
+    margin-top: auto;
+}
+.close:hover{
+
+
+    -webkit-transform: rotate(360deg);
+
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+
+    -ms-transform: rotate(360deg);
+
+    transform: rotate(360deg);
+
+
+
+}
+#canvas{
+    border: solid black;
+}
+
+body {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position:relative;
+    height: 800px;
+
+
+
+}
+
+.menu {
+    cursor: pointer;
+    background-color: #555;
+    left: -285px; 
+    height: 100%;
+    position: fixed;
+    width: 285px;
+}
+
+
+/* Basic CSS */
+
+.main{
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.menu ul {
+    border-top: 1px solid #555;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    background-color: #555;
+
+}
+
+.menu li {
+    border-bottom: 1px solid #555;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.menu li:hover {
+    background-color:#D2B48C;
+
+}
+
+.menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+
+
+}
+.menu li:hover {
+    background-color:#D2B48C;
+
+}
+
+.icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.icon-menu {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+#icon{
+    margin-left: 6px;
+    width: 45px;
+    height:45px;
+}
+

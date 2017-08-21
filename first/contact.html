@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+    <link href="style-contact.css" rel="stylesheet">
+    <SCRIPT type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="js/wow.min.js"></script>
+   
+    <script>
+        new WOW().init();
+    </script>
+
+
+
+</head>
+<body>
+<div class="menu">
+
+
+    <div class="icon-close">
+        <img src="images/close-btn.png" id="icon">
+    </div>
+
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+
+        <li><a href="photocolections.html">Photo Collections</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</div>
+
+<div class="main">
+    <div class="icon-menu">
+        <img src="images/menu-ham-icon.png">
+        Menu
+
+    </div>
+
+
+
+
+        <div  class="wow slideInRight" data-wow-delay="0.5s" data-wow-duration="2s">
+
+
+
+
+
+
+        <div id="form-main">
+            <div id="form-div">
+                <form class="form" id="form1">
+
+                    <p class="name">
+                        <input name="name" type="text" class=" feedback-input" placeholder="Name" id="name" />
+                    </p>
+
+                    <p class="email">
+                        <input name="email" type="text" class=" feedback-input" id="email" placeholder="Email" />
+                    </p>
+
+                    <p class="text">
+                        <textarea name="text" class=" feedback-input" id="comment" placeholder="Text"></textarea>
+                    </p>
+
+
+                    <div class="submit">
+                        <input type="submit" value="SEND" id="submit"  onclick='Javascript:checkEmail();'/>
+
+                        <div class="ease"></div>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        </div>
+
+            <script language="javascript">
+
+                function checkEmail() {
+
+                    var email = document.getElementById('email');
+                    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+                    if (!filter.test(email.value)) {
+                        alert('Please provide a valid email address');
+                        email.focus;
+                        return false;
+                    }
+
+                }</script>
+    <script src="js/wow.min.js"></script>
+
+
+</div>
+
+
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
